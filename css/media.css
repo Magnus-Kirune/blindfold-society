@@ -1,0 +1,44 @@
+@media (max-width: 740px) {
+  .menu-principal {
+    width: 100%;
+    padding: 0px 5px;
+  }
+  .menu-principal .LogoDog {
+    width: 90px;
+    height: 90px;
+    margin-left: 0.5vh;
+  }
+  .menu-principal .discord {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+  }
+  .menu-principal .navigation {
+    width: 42%;
+  }
+  .menu-principal .navigation .btn {
+    width: 0.5vh;
+    font-size: 12px;
+    margin-right: 25px;
+  }
+  .content .menu-2 {
+    gap: 1vh;
+    margin: 0px 1px;
+  }
+  .content .menu-2 .nav2 {
+    font-size: 16px;
+    gap: 5px;
+    width: 25%;
+  }
+  .content .nav-2 {
+    width: 60%;
+    margin-right: 5px;
+  }
+  .content .nav-2 .btn2 {
+    border-radius: 10px;
+    font-weight: lighter;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

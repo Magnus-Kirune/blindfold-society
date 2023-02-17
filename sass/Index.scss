@@ -1,0 +1,309 @@
+@import "../function/reset.scss";
+
+
+@media(min-width: 1026px){
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-color: #5f1212;
+
+    .mistico{
+        font-family: 'josefin sans';
+        font-size: 18px;
+    }
+    .linker{
+        font-size: bold;
+        font-style: italic;
+        color: aqua;
+        text-decoration: none;
+    }
+}
+//Sessão do conteudo principal.
+.menu-principal{
+        width: 100%;
+        background-color: #262930;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 25px;
+        border-bottom: 3px groove darkgray;
+        height: 12vh;
+
+    .LogoDog{
+        width: 120px;
+        height: 120px;
+        margin-left: 15vh;
+        cursor: pointer;
+    }
+
+    .discord{
+        width: 65px;
+        height: 65px;  
+    }
+
+    .navigation{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5vh;
+        width: 30%;
+        margin-right: 5vh;
+        
+
+        .btn{
+            font-size: 18px;
+            color: whitesmoke;
+            height: 5vh;
+            width: 15vh;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+.content{
+    border-bottom: 1px solid white;
+    height: 12vh;
+    background-color: #707070;
+
+    .menu-2{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+
+        .nav2{
+            color: lightgray;
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 22px;
+            margin-left: 20px;
+
+            a{
+                text-decoration: none;
+                color: lightgray;
+                transition: 0.5s;
+
+                &:hover{
+                    font-weight: bold;
+                    transform: scale(1.1);
+                    color: whitesmoke;
+                }
+            }
+        }
+    }
+
+    .nav-2{
+        width: 35%;
+        display: flex;
+        align-items: center;
+
+        .btn2{
+            font-weight: bold;
+            font-size: 18px;
+            height: 7vh;
+            width: 22vh;
+            border-radius: 1vh;
+            background-color: lightgray;
+            border: none;
+            box-shadow: 0 0 15px lightslategray;
+            margin-left: 53%;
+            cursor: pointer;
+            transition: 1s;
+
+            &:hover{
+                box-shadow: inset 0 0 10px black;
+            }
+        }
+    }
+}
+.texts{
+    color: whitesmoke;
+    height: 67rem;
+    width: 100%;
+    box-shadow: inset 0 0 25px black;
+    background-color: #4e4e4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+
+    .TB{
+        margin-top: 5vh;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .tittle{
+        font-family: 'Cinzel';
+        width: 30%;
+        text-align: center;
+        margin-top: 9px;
+        padding: 15px;
+        border-bottom: 1px solid white;
+    }
+
+    .paragraph{
+        border-bottom: 1px solid white;
+        margin-top: 20px;
+    }
+
+    .cards{
+        display: flex;
+        gap: 5vh;
+
+        .itemC{
+            background-color: #000;
+            height: 350px;
+            margin-left: 25px;
+            width: 300px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8vh;
+            padding: 2vh 4vh;
+            text-align: center;
+        }
+    }
+    .apresentacao{
+        width: 550px;
+        height: 400px;
+        text-align: center;
+        padding: 25px 25px;
+        font-size: 18px;
+
+        p{
+           font-weight: bold;
+        }
+
+        .tInfo{
+            margin-bottom: 5vh;
+            font-size: 25px;
+        }
+    }
+}
+//Seção dos Cards.
+.azul{
+    color: rgb(0, 251, 255);
+    text-transform: uppercase;
+    font-size: larger;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.vermelho{
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-size: larger;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.verde{
+    color: rgb(0, 255, 106);
+    text-transform: uppercase;
+    font-size: larger;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.card-azul{
+    border: 10px groove black;
+    box-shadow: 0 0 25px white;
+    transition: 0.8s;
+    cursor: pointer;
+    
+&:hover{
+    border: 10px groove rgb(0, 251, 255);
+    box-shadow: 0 0 25px rgb(0, 251, 255);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url("../image/ImgPpA.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+  }
+}
+.card-vermelho{
+    border: 10px groove black;
+    box-shadow: 0 0 30px white;
+    transition: 0.8s;
+    cursor: pointer;
+
+&:hover{
+    border: 10px groove rgb(255, 0, 0);
+    box-shadow: 0 0 25px red;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../image/ImgPp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+  }
+}
+.card-verde{
+    border: 10px groove black;
+    box-shadow: 0 0 25px white;
+    transition: 0.8s;
+    cursor: pointer;
+
+&:hover{
+    border: 10px groove rgb(0, 255, 106);
+    box-shadow: 0 0 25px rgb(0, 255, 106);
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../image/ImgPpV.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+  }
+}
+//Footer.
+.rodape{
+    color: white;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .itemF{
+        margin-top: 20px;
+        border-bottom: 1px solid white;
+        width: 35vh;
+    }
+    .creditos{
+        width: 33vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .copi{
+            text-shadow: 0 0 15px #707070;
+            border-right: 1px solid white;
+            padding: 5px;
+        }
+        .dcd{
+            font-weight:bolder;
+            font-size: 18px;
+            text-align: center;
+            margin-right: 25px;
+            display: flex;
+            margin-left: 10px;
+            
+            a{
+                text-decoration: none;
+                color: aquamarine;
+            }
+            .DCf{
+                height: 12px;
+                width: 12px;
+            }
+        }
+    }
+  }
+}
+
+
+
+
+
+
+
