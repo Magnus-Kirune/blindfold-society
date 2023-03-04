@@ -1,0 +1,147 @@
+@import "../../function/reset.scss";
+
+@media(min-width: 1026px){
+body{
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-color: #5f1212;
+    
+        .mistico{
+            font-family: 'josefin sans';
+            font-size: 18px;
+        }
+        .linker{
+            font-size: bold;
+            font-style: italic;
+            color: aqua;
+            text-decoration: none;
+        }
+    }
+.menu-principal{
+        width: 100%;
+        height: 13vh;
+        background-color: #262930;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 25px;
+        border-bottom: 3px groove darkgray;
+   .LogoDog{
+        height: 12vh;
+        width: 120px;
+        height: 120px;
+        margin-left: 15vh;
+        cursor: pointer;
+    }
+
+    .discord{
+        width: 65px;
+        height: 65px;  
+    }
+
+    .navigation{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 5vh;
+        width: 30%;
+        margin-right: 5vh;
+        
+
+        .btn{
+            font-size: 18px;
+            color: whitesmoke;
+            height: 5vh;
+            width: 15vh;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+.content{
+    border-bottom: 1px solid white;
+    height: 12vh;
+    background-color: #707070;
+
+    .menu-2{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 15px;
+
+        .nav2{
+            color: lightgray;
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 22px;
+            margin-left: 20px;
+
+            a{
+                text-decoration: none;
+                color: lightgray;
+                transition: 0.5s;
+
+                &:hover{
+                    font-weight: bold;
+                    transform: scale(1.1);
+                    color: whitesmoke;
+                }
+            }
+        }
+    }
+
+    .nav-2{
+        width: 35%;
+        display: flex;
+        align-items: center;
+
+        .btn2{
+            font-weight: bold;
+            font-size: 18px;
+            height: 7vh;
+            width: 22vh;
+            border-radius: 1vh;
+            background-color: lightgray;
+            border: none;
+            box-shadow: 0 0 15px lightslategray;
+            margin-left: 53%;
+            cursor: pointer;
+            transition: 1s;
+
+            &:hover{
+                box-shadow: inset 0 0 10px black;
+            }
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
