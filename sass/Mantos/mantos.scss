@@ -5,7 +5,10 @@ body{
         font-family: 'Roboto', sans-serif;
         height: 100%;
         background-color: #5f1212;
-    
+        .tittle{
+            margin-bottom: 5vh;
+            font-family: 'Roboto', sans-serif;
+        }
         .mistico{
             font-family: 'josefin sans';
             font-size: 18px;
@@ -15,6 +18,14 @@ body{
             font-style: italic;
             color: aqua;
             text-decoration: none;
+        }
+        .emphasis{
+            font-weight: bold;
+        }
+        .list-mantos{
+            list-style: none;
+            margin-top: 4vh;
+            margin-bottom: 4vh;
         }
     }
 .menu-principal{
@@ -120,6 +131,21 @@ body{
                 box-shadow: inset 0 0 10px black;
             }
         }
+    }
+}
+
+
+.content-manto{
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+    .items{
+        border: 3px double white;
+        width: 90%;
+        padding: 6vh;
+        text-align: center;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5));
     }
 }
 }
