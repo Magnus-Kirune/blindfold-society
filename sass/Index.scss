@@ -220,7 +220,7 @@ body{
 &:hover{
     border: 10px groove rgb(0, 251, 255);
     box-shadow: 0 0 25px rgb(0, 251, 255);
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url("../image/ImgPpA.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.7)), url("../image/ImgPpA.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px 300px;
@@ -235,7 +235,7 @@ body{
 &:hover{
     border: 10px groove rgb(255, 0, 0);
     box-shadow: 0 0 25px red;
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../image/ImgPp.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("../image/ImgPp.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px 300px;
@@ -250,7 +250,7 @@ body{
 &:hover{
     border: 10px groove rgb(0, 255, 106);
     box-shadow: 0 0 25px rgb(0, 255, 106);
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../image/ImgPpV.png");
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("../image/ImgPpV.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px 300px;
