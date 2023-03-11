@@ -28,9 +28,9 @@
     justify-content: space-between;
     padding: 0px 25px;
     border-bottom: 3px groove darkgray;
-    height: 12vh;
   }
   .menu-principal .LogoDog {
+    height: 12vh;
     width: 120px;
     height: 120px;
     margin-left: 15vh;
